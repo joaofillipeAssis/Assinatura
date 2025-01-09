@@ -42,12 +42,13 @@ Se após estes passos o erro persistir, pode ser um problema com seu IDE. Se est
 2. Digite "Python: Select Interpreter"
 3. Selecione o interpretador Python do seu ambiente virtual
 
-Isso deve resolver o problema de importação do SQLModel.
-
-## Executar o script
+## Executar o script database
 ```bash
-python models.py
+python models/database.py
 ```
+
+DATABASE é usado para configurar a estrutura do banco de dados.
+Para manipular os registros execuar MODELS.
 
 ## Extensão Visualizar Banco de Dados
 ```bash
