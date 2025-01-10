@@ -1,0 +1,36 @@
+# Ambiente virtual
+venv/
+env/
+.env/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de distribuição/packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Logs
+*.log
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db 

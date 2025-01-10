@@ -6,6 +6,5 @@ sqlite_url = f"sqlite:///{sqlite_file_name}"
 
 engine = create_engine(sqlite_url, echo=True)
 
-## Excluir execução por importação
 if __name__ == "__main__":
     SQLModel.metadata.create_all(engine)
